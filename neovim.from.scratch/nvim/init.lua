@@ -48,6 +48,40 @@ require('lazy').setup ({
   lazy = false,
 },
 
+-- {
+--   "mbbill/undotree",
+--   lazy = true, -- Set to true for lazy loading (optional, lazy is default)
+--   keys = {
+--     -- Define a keymap that triggers the plugin loading
+--     { "<leader>u", function() vim.cmd.UndotreeToggle() end, desc = "Toggle undotree view" },
+--   },
+--   config = function()
+--     -- Your undotree configuration options go here, e.g.:
+--     vim.g.undotree_WindowLayout = 2
+--     vim.g.undotree_DiffpanelHeight = 8
+--     
+--     -- Optional: Enable persistent undo
+--     if has("persistent_undo") then
+--       local target_path = expand('~/.vim/undodir')
+--       -- if not isdirectory(target_path) then
+--       --   call mkdir(target_path, "p", 0700)
+--       -- end
+--       -- let &undodir = target_path
+--       -- set undofile
+--     end
+--   end,
+-- },
+
+  {
+    "mbbill/undotree",
+    lazy = true,
+    keys = {
+      { "<leader>u", function() vim.cmd.UndotreeToggle() end,
+        desc = "Show nvim undotree",
+      },
+      config = true,
+    },
+  },
 
 {
   "ibhagwan/fzf-lua",
