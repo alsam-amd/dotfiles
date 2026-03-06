@@ -1,1 +1,2 @@
+require("settings")
 print("hello")
