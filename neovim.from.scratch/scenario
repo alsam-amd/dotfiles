@@ -1,0 +1,10 @@
+```sh
+cd ~/.config/
+rm -rf nvim
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+mkdir nvim && cd nvim
+nvim . # % for opening <file> ; d for mkdir
+touch init.lua
+mkdir lua/
+```
