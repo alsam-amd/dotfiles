@@ -1,5 +1,4 @@
 require("settings")
-print("hello")
 
 -- Set up the Lazy plugin manager
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
@@ -25,17 +24,6 @@ require('lazy').setup ({
   build = ":TSUpdate"
 },
 
--- {
---     "nvim-neo-tree/neo-tree.nvim",
---     branch = "v3.x",
---     dependencies = {
---       "nvim-lua/plenary.nvim",
---       "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
---       "MunifTanjim/nui.nvim",
---       -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
---     }
--- },
-
 {
   'stevearc/oil.nvim',
   ---@module 'oil'
@@ -48,40 +36,16 @@ require('lazy').setup ({
   lazy = false,
 },
 
--- {
---   "mbbill/undotree",
---   lazy = true, -- Set to true for lazy loading (optional, lazy is default)
---   keys = {
---     -- Define a keymap that triggers the plugin loading
---     { "<leader>u", function() vim.cmd.UndotreeToggle() end, desc = "Toggle undotree view" },
---   },
---   config = function()
---     -- Your undotree configuration options go here, e.g.:
---     vim.g.undotree_WindowLayout = 2
---     vim.g.undotree_DiffpanelHeight = 8
---     
---     -- Optional: Enable persistent undo
---     if has("persistent_undo") then
---       local target_path = expand('~/.vim/undodir')
---       -- if not isdirectory(target_path) then
---       --   call mkdir(target_path, "p", 0700)
---       -- end
---       -- let &undodir = target_path
---       -- set undofile
---     end
---   end,
--- },
-
-  {
-    "mbbill/undotree",
-    lazy = true,
-    keys = {
-      { "<leader>u", function() vim.cmd.UndotreeToggle() end,
-        desc = "Show nvim undotree",
-      },
-      config = true,
+{
+  "mbbill/undotree",
+  lazy = true,
+  keys = {
+    { "<leader>u", function() vim.cmd.UndotreeToggle() end,
+      desc = "Show nvim undotree",
     },
+    config = true,
   },
+},
 
 {
   "ibhagwan/fzf-lua",
