@@ -1,4 +1,4 @@
-vim.g.mapleader = " "
+--vim.g.mapleader = " "
 vim.keymap.set('n', '<leader>l', '<cmd>Lazy home<CR>', { desc = 'Open Lazy main menu' })
 -- Map <leader>fp to open projects
 vim.keymap.set('n', '<leader>fp', ':ProjectFzf<CR>', { noremap = true, silent = true })
