@@ -71,7 +71,14 @@ return {
 
     vim.g.gutentags_add_default_project_roots = false
     vim.g.gutentags_project_root = { 'package.json', '.git' }
-    vim.g.gutentags_cache_dir = vim.fn.stdpath("data") .. '/ctags'
+
+    local cache_path = vim.fn.stdpath("data") .. '/ctags'
+    if vim.fn.isdirectory(cache_path) == 0 then
+        vim.fn.mkdir(cache_path, "p", "755")
+        print("Created directory: " .. cache_path)
+    end
+    vim.g.gutentags_cache_dir = cache_path
+
     vim.g.gutentags_generate_on_new = true
     vim.g.gutentags_generate_on_missing = true
     vim.g.gutentags_generate_on_write = true
