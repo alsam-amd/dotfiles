@@ -3,3 +3,4 @@
 + [0 to LSP : Neovim RC From Scratch](https://www.youtube.com/watch?v=w7i4amO_zaE)
 + [Ampersand's Neovim Configuration (2025 Edition)](https://github.com/Andrey0189/nvim-config)
 + [Nvim guide for beginners](https://github.com/alvarojsino813/nvim-config-guide)
++ [Vim Motions & Tricks I Wish I Learned Sooner](https://www.youtube.com/watch?v=RdyfT2dbt78)
