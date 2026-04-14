@@ -30,3 +30,4 @@
 + [AMD GPU Driver (amdgpu)](https://instinct.docs.amd.com/projects/amdgpu-docs/en/latest/)
 + [AMD Instinct Data Center GPU Documentation](https://instinct.docs.amd.com/latest/)
 + [Micro Engine Scheduler Specification](https://gpuopen.com/download/micro_engine_scheduler.pdf)
++ [Decoding instructions with the machine-readable AMD GPU ISA specifications](https://gpuopen.com/learn/using-isadecoder-api/)
