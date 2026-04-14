@@ -22,3 +22,11 @@
 + [ROCgdb, GDB and AMDGPU debugging, Lancelot SIX](https://archive.fosdem.org/2024/events/attachments/fosdem-2024-2392-rocgdb-gdb-and-amdgpu-debugging/slides/22366/FOSDEM-2024-rocgdb_v3_20240126_fXVNPiy.pdf)
 + [Anatomy of ROCgdb (GDB for AMD GPUs)](https://gcc.gnu.org/wiki/cauldron2022talks?action=AttachFile&do=view&target=Anatomy+of+ROCgdb.pdf)
 + [DWARF Extensions for Optimized SIMT/SIMD (GPU) Debugging GNU Tools Cauldron @ Linux Plumbers Conference 2021](https://lpc.events/event/11/contributions/1012/attachments/798/1505/DWARF_Extensions_for_Optimized_SIMT-SIMD_GPU_Debugging-LPC2021.pdf)
+
+# shader assembler
++ ["Vega" 7nm Instruction Set Architecture](https://docs.amd.com/v/u/en-US/vega-7nm-shader-instruction-set-architecture)
++ [CDNA4 Instruction Set Architecture](https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/instruction-set-architectures/amd-instinct-cdna4-instruction-set-architecture.pdf)
++ [GPU architecture documentation](https://github.com/ROCm/instinct-docs/blob/develop/docs/gpu-arch/gpu-arch.md)
++ [AMD GPU Driver (amdgpu)](https://instinct.docs.amd.com/projects/amdgpu-docs/en/latest/)
++ [AMD Instinct Data Center GPU Documentation](https://instinct.docs.amd.com/latest/)
+
