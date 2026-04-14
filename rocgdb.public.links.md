@@ -29,4 +29,4 @@
 + [GPU architecture documentation](https://github.com/ROCm/instinct-docs/blob/develop/docs/gpu-arch/gpu-arch.md)
 + [AMD GPU Driver (amdgpu)](https://instinct.docs.amd.com/projects/amdgpu-docs/en/latest/)
 + [AMD Instinct Data Center GPU Documentation](https://instinct.docs.amd.com/latest/)
-
++ [Micro Engine Scheduler Specification](https://gpuopen.com/download/micro_engine_scheduler.pdf)
