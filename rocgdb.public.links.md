@@ -31,5 +31,6 @@
 + [AMD Instinct Data Center GPU Documentation](https://instinct.docs.amd.com/latest/)
 + [Micro Engine Scheduler Specification](https://gpuopen.com/download/micro_engine_scheduler.pdf)
 + [Decoding instructions with the machine-readable AMD GPU ISA specifications](https://gpuopen.com/learn/using-isadecoder-api/)
+    + [isa_spec_manager](https://github.com/GPUOpen-Tools/isa_spec_manager)
 + [Assembling and linking AMD GPU kernel code](https://discourse.llvm.org/t/assembling-and-linking-amd-gpu-kernel-code/78760)
 + [Syntax of AMDGPU Instruction Operands](https://rocm.docs.amd.com/projects/llvm-project/en/latest/LLVM/llvm/html/AMDGPUOperandSyntax.html)
