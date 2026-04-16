@@ -34,3 +34,4 @@
     + [isa_spec_manager](https://github.com/GPUOpen-Tools/isa_spec_manager)
 + [Assembling and linking AMD GPU kernel code](https://discourse.llvm.org/t/assembling-and-linking-amd-gpu-kernel-code/78760)
 + [Syntax of AMDGPU Instruction Operands](https://rocm.docs.amd.com/projects/llvm-project/en/latest/LLVM/llvm/html/AMDGPUOperandSyntax.html)
++ []LLVM-AMDGPU-Assembler-Extra(https://github.com/ROCm/LLVM-AMDGPU-Assembler-Extra)
